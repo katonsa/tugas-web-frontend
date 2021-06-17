@@ -16,7 +16,8 @@ export default {
   data: function() {
     return {
       todos: [],
-      myText: ''
+      myText: '',
+      connection: null,
     }
   },
   created: function () {
